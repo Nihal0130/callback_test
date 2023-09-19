@@ -6,7 +6,6 @@ os.environ["OPENAI_API_KEY"] = "sk-ryJN2GNRy4TGz5VLKEKsT3BlbkFJ312EIktrlovfYqYNs
 
 # Evaluation Metrics
 
-import ragas
 from ragas.metrics import (
     context_relevancy,
     answer_relevancy,
